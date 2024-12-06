@@ -15,7 +15,7 @@ use crate::*;
 )]
 #[kube(
     group = "gateway.networking.k8s.io",
-    version = "v1beta1",
+    version = "v1",
     kind = "HTTPRoute",
     root = "HttpRoute",
     status = "HttpRouteStatus",

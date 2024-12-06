@@ -9,7 +9,7 @@ use std::collections::BTreeMap;
 )]
 #[kube(
     group = "gateway.networking.k8s.io",
-    version = "v1beta1",
+    version = "v1",
     kind = "Gateway",
     status = "GatewayStatus",
     namespaced

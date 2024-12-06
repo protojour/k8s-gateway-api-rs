@@ -23,7 +23,7 @@ use k8s_openapi::apimachinery::pkg::apis::meta::v1 as metav1;
 )]
 #[kube(
     group = "gateway.networking.k8s.io",
-    version = "v1beta1",
+    version = "v1",
     kind = "GatewayClass",
     status = "GatewayClassStatus"
 )]
